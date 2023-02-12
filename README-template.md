@@ -45,10 +45,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
+## Installation in local environnement
+docker build -t vuejs-cookbook/dockerize-vuejs-app .
+docker run -it -p 8080:80 --rm --name dockerize-vuejs-app-1 vuejs-cookbook/dockerize-vuejs-app
 
 ### Built with
-
+- Docker
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
